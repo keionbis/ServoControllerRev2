@@ -1,0 +1,18 @@
+.LP38690SD-ADJ_NOPB :1 ;1A LDO Regulator Adj.,LP38690SD-ADJ Texas Instruments LP38690SD-ADJ/NOPB, LDO Voltage Regulator, Adjustable 1A, 1.25  9 V 2.5%, 6-Pin LLP
+SON95P300X300X80-7N
+*STM IC
+*NGS
+*PLB 1="IN_1" 2="GND" 3="N/C" 4="ADJ" 5="OUT" 6="IN_2" 7="EP"
+*MXP 7
+*DFN LP38690SD-ADJ_NOPB
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LP38690SD-ADJ/NOPB)
+~!RS Part Number (6515542P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/6515542P)
+~!Arrow Part Number (LP38690SD-ADJ/NOPB)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lp38690sd-adjnopb/texas-instruments)
+~!Link Datasheet (http://uk.rs-online.com/web/p/products/6515542)
+~!Height (0.8mm)
+~!3D_Model (LP38690SD-ADJ_NOPB)
+LP38690SD-ADJ_NOPB
+1.1!U 2.1!U 3.1!U 7.1!U 6.1!U 5.1!U 4.1!U 
