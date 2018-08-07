@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:motor controller-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -262,28 +263,6 @@ Text GLabel 6350 1550 1    50   Input ~ 0
 D1
 Text GLabel 6350 4350 3    50   Input ~ 0
 D2
-$Comp
-L power:+3.3V #PWR0120
-U 1 1 5B3B2BEA
-P 5050 2750
-F 0 "#PWR0120" H 5050 2600 50  0001 C CNN
-F 1 "+3.3V" V 5065 2878 50  0000 L CNN
-F 2 "" H 5050 2750 50  0001 C CNN
-F 3 "" H 5050 2750 50  0001 C CNN
-	1    5050 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0121
-U 1 1 5B3B2C4A
-P 5050 2650
-F 0 "#PWR0121" H 5050 2400 50  0001 C CNN
-F 1 "GND" V 5055 2522 50  0000 R CNN
-F 2 "" H 5050 2650 50  0001 C CNN
-F 3 "" H 5050 2650 50  0001 C CNN
-	1    5050 2650
-	0    1    1    0   
-$EndComp
 Text GLabel 5950 1750 1    50   Input ~ 0
 OUT2
 Text GLabel 6250 4150 3    50   Input ~ 0
@@ -380,9 +359,9 @@ Text GLabel 3050 3550 2    50   Input ~ 0
 SWDIO
 Text GLabel 3050 3650 2    50   Input ~ 0
 SWCLK
-Text GLabel 2050 3250 0    50   Input ~ 0
+Text GLabel 3050 3450 2    50   Input ~ 0
 D2
-Text GLabel 3050 3750 2    50   Input ~ 0
+Text GLabel 2050 3350 0    50   Input ~ 0
 D1
 $Comp
 L power:GND #PWR0123
@@ -981,4 +960,12 @@ F 3 "" H 5750 5800 50  0001 C CNN
 	1    5600 5850
 	1    0    0    -1  
 $EndComp
+Text GLabel 5050 2650 0    50   Input ~ 0
+IN2
+Text GLabel 5050 2750 0    50   Input ~ 0
+IN1
+Text GLabel 3050 3750 2    50   Input ~ 0
+IN1
+Text GLabel 2050 3250 0    50   Input ~ 0
+IN2
 $EndSCHEMATC
