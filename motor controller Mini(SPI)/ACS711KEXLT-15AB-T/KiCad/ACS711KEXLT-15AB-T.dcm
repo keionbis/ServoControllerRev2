@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACS711KEXLT-15AB-T
+D Hall Effect Linear Current Sensor with Overcurrent Fault Output for <100 V Isolation Applications
+K
+F http://www.allegromicro.com/en/Products/Current-Sensor-ICs/Zero-To-Fifty-Amp-Integrated-Conductor-Sensor-ICs/~/media/Files/Datasheets/ACS711-Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

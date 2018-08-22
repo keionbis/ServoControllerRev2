@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "EX-PACKAGE"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "EX-PACKAGE")
+        (spec "default")
+    )
+)
