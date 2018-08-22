@@ -1,0 +1,18 @@
+.MIC5501-3.0YM5-TR :1 ;MIC5501-3.0YM5-TR, SOT23-5
+SOT95P280X130-5N
+*STM IC
+*NGS
+*PLB 1="VIN" 2="GND" 3="EN" 4="NC" 5="VOUT"
+*MXP 5
+*DFN MIC5501-3.0YM5-TR
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MIC5501-3.0YM5-TR)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Arrow Part Number (MIC5501-3.0YM5-TR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/mic5501-3.0ym5-tr/microchip-technology)
+~!Link Datasheet (http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580292)
+~!Height (1.3mm)
+~!3D_Model (MIC5501-3.0YM5-TR)
+MIC5501-3.0YM5-TR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

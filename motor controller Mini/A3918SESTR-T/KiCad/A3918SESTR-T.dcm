@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A3918SESTR-T
+D A3918: Low Voltage DC Motor Driver
+K
+F http://www.allegromicro.com/en/Products/Motor-Driver-And-Interface-ICs/Brush-DC-Motor-Drivers/A3918.aspx
+$ENDCMP
+#
+#End Doc Library

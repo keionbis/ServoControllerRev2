@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC2850IS8PBF
+D 3.3V 20Mbps RS485/RS422 Transceivers
+K
+F 
+$ENDCMP
+#
+#End Doc Library
