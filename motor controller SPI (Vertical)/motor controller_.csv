@@ -1,0 +1,34 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Manufacturer_Name,Arrow Part Number,Height,Arrow Price/Stock,RS Price/Stock,RS Part Number,Manufacturer_Part_Number
+1,Unpolarized capacitor,C,C4,0.1UF,C_0402_1005Metric,1,~,,,,,,,
+2,Unpolarized capacitor,C,C1 C2,10pF,C_0402_1005Metric,2,~,,,,,,,
+3,Unpolarized capacitor,C,C3 C5 C8 C9,1UF,C_0402_1005Metric,4,~,,,,,,,
+4,Unpolarized capacitor,C,C6,33nf,C_0402_1005Metric,1,~,,,,,,,
+5,Unpolarized capacitor,C,C7,47UF,C_1206_3216Metric,1,~,,,,,,,
+6,LED generic,LED,D1,LED,LED_0603_1608Metric,1,~,,,,,,,
+7,"1A LDO Regulator Adj.,LP38690SD-ADJ Texas Instruments LP38690SD-ADJ/NOPB, LDO Voltage Regulator, Adjustable 1A, 1.25  9 V 2.5%, 6-Pin LLP",LP38690SD-ADJ_NOPB,IC3,LP38690SD-ADJ_NOPB,SON95P300X300X80-7N,1,http://uk.rs-online.com/web/p/products/6515542,Texas Instruments,LP38690SD-ADJ/NOPB,0.8,https://www.arrow.com/en/products/lp38690sd-adjnopb/texas-instruments,http://uk.rs-online.com/web/p/products/6515542P,6515542P,LP38690SD-ADJ/NOPB
+8,,MA702,IC1,MA702,MA702,1,,,,,,,,
+9,Motor / Motion / Ignition Controllers & Drivers THROTTLE CTRL H-BRIDGE,MC33926PNB,IC2,MC33926PNB,QFN80P800X800X220-33N,1,http://cache.nxp.com/files/analog/doc/data_sheet/MC33926.pdf,Nexperia,MC33926PNB,2.2,https://www.arrow.com/en/products/mc33926pnb/nxp-semiconductors,,,MC33926PNB
+10,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Male,J3,Conn_01x04_Male,1x4Pads,1,~,,,,,,,
+11,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06_Male,J1 J2,Conn_01x06_Male,Molex_CLIK-Mate_502443-0670_1x06-1MP_P2.00mm_Vertical,2,~,,,,,,,
+12,DC Motor,Motor_DC,M1,Motor_DC,hv5932mgMotor,1,~,,,,,,,
+13,Resistor,R,R1,100k,R_0402_1005Metric,1,~,,,,,,,
+14,Resistor,R,R5 R6 R7 R8 R9,1k,R_0402_1005Metric,5,~,,,,,,,
+15,Resistor,R,R4,220,R_0402_1005Metric,1,~,,,,,,,
+16,Resistor,R,R2,330,R_0402_1005Metric,1,~,,,,,,,
+17,"ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 26 GPIO, UFQFPN-32",STM32L432KCUx,U1,STM32L432KCUx,QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm,1,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257205.pdf,,,,,,,
+18,"Four pin crystal (GND on pins 2 and 4), e.g. in SMD package",Crystal_GND24,Y1,32mhz,Crystal_SMD_2016-4Pin_2.0x1.6mm,1,~,,,,,,,
+
+
+
+
+
+Component Groups:,18
+Component Count:,27
+Fitted Components:,27
+Number of PCBs:,1
+Total components:,27
+Schematic Version:,
+Schematic Date:,
+BoM Date:,Sun 26 Aug 2018 05:06:39 PM EDT
+Schematic Source:,/home/kbisland/Documents/MotorControllers/motor controller SPI (Vertical)/motor controller.sch
+KiCad Version:,Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1
