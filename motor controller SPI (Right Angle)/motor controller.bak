@@ -361,7 +361,7 @@ Text GLabel 3050 3650 2    50   Input ~ 0
 SWCLK
 Text GLabel 3050 3450 2    50   Input ~ 0
 D2
-Text GLabel 2050 3650 0    50   Input ~ 0
+Text GLabel 2050 3350 0    50   Input ~ 0
 D1
 $Comp
 L power:GND #PWR0123
@@ -531,15 +531,15 @@ F 3 "~" H 8200 3810 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 1250 5750 3    50   Input ~ 0
-MOSI2
+MOSI
 Text GLabel 1050 5750 3    50   Input ~ 0
-SCK2
+SCK
 Text GLabel 950  5750 3    50   Input ~ 0
 CS
 Text GLabel 2050 5750 3    50   Input ~ 0
-MISO2
+MISO
 Text GLabel 2150 5750 3    50   Input ~ 0
-SCK2
+SCK
 Text GLabel 2250 5750 3    50   Input ~ 0
 CS
 Wire Wire Line
@@ -852,10 +852,4 @@ F 3 "" H 1600 2650 50  0001 C CNN
 	1    1600 2650
 	0    1    1    0   
 $EndComp
-Text GLabel 2050 3350 0    50   Input ~ 0
-SCK2
-Text GLabel 2050 3450 0    50   Input ~ 0
-MISO2
-Text GLabel 2050 3550 0    50   Input ~ 0
-MOSI2
 $EndSCHEMATC
