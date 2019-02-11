@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN65HVD75DRBT
+D TEXAS INSTRUMENTS - SN65HVD75DRBT - RS422/RS485 TXRX, 20MBPS, 3.6V, VSON-8
+K
+F http://www.ti.com/lit/ds/symlink/sn65hvd75.pdf
+$ENDCMP
+#
+#End Doc Library

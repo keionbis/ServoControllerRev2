@@ -731,11 +731,6 @@ Wire Wire Line
 Wire Wire Line
 	1900 2650 2050 2650
 Connection ~ 1900 2650
-Wire Wire Line
-	2450 3950 2550 3950
-Wire Wire Line
-	2550 3950 2650 3950
-Connection ~ 2550 3950
 $Comp
 L power:GND #PWR0103
 U 1 1 5B487409
@@ -747,12 +742,6 @@ F 3 "" H 2650 3950 50  0001 C CNN
 	1    2650 3950
 	1    0    0    -1  
 $EndComp
-Connection ~ 2650 3950
-Wire Wire Line
-	2450 2050 2550 2050
-Wire Wire Line
-	2550 2050 2650 2050
-Connection ~ 2550 2050
 $Comp
 L power:+3.3V #PWR0104
 U 1 1 5B488B48
@@ -764,7 +753,6 @@ F 3 "" H 2650 2050 50  0001 C CNN
 	1    2650 2050
 	1    0    0    -1  
 $EndComp
-Connection ~ 2650 2050
 $Comp
 L Device:LED D1
 U 1 1 5B6265C8
@@ -858,4 +846,16 @@ Wire Wire Line
 	1250 5750 1250 6000
 Wire Wire Line
 	1250 6000 1950 6000
+Connection ~ 2650 2050
+Connection ~ 2550 2050
+Wire Wire Line
+	2550 2050 2650 2050
+Wire Wire Line
+	2450 2050 2550 2050
+Connection ~ 2650 3950
+Connection ~ 2550 3950
+Wire Wire Line
+	2550 3950 2650 3950
+Wire Wire Line
+	2450 3950 2550 3950
 $EndSCHEMATC
